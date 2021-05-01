@@ -23,3 +23,7 @@
 
 ### Compelete Tutorial fot TDD
 [TDD Tutorial](https://www.xenonstack.com/blog/test-behaviour-driven-development/)
+
+[Example](https://github.com/AhmedTawfiqM/UnitTestingPractice/blob/main/app/src/test/java/com/atdev/unittestingpractice/RegistrationUtilTest.kt)
+
+[Testing in android](https://www.youtube.com/watch?v=EkfVL5vCDmo&list=PLQkwcJG4YTCSYJ13G4kVIJ10X5zisB2Lq&index=1&ab_channel=PhilippLackner)
