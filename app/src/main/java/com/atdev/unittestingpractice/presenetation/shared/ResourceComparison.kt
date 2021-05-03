@@ -1,4 +1,4 @@
-package com.atdev.unittestingpractice
+package com.atdev.unittestingpractice.presenetation.shared
 
 import android.content.Context
 

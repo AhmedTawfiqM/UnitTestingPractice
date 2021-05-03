@@ -2,6 +2,7 @@ package com.atdev.unittestingpractice
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
+import com.atdev.unittestingpractice.presenetation.shared.ResourceComparison
 import com.google.common.truth.Truth.assertThat
 import org.junit.After
 import org.junit.Before

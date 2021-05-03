@@ -1,7 +1,8 @@
-package com.atdev.unittestingpractice
+package com.atdev.unittestingpractice.presenetation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.atdev.unittestingpractice.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
