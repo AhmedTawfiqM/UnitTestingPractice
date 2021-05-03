@@ -4,5 +4,6 @@ import android.content.Context
 
 class ResourceComparison {
 
-    fun isEqual(context: Context, resID: Int, res: String) = context.getString(resID) == res
+    fun isEqual(context: Context, resID: Int, res: String) =
+        context.getString(resID) == res
 }
