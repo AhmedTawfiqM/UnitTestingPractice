@@ -22,7 +22,9 @@
 
 
 ###  Tutorial 
-[TDD Tutorial](https://www.xenonstack.com/blog/test-behaviour-driven-development/)
+[TDD Tutorial](https://www.xenonstack.com/blog/test-behaviour-driven-development/) 
+
+[TDD](https://chromatichq.com/blog/principles-testdriven-development)
 
 [Example](https://github.com/AhmedTawfiqM/UnitTestingPractice/blob/main/app/src/test/java/com/atdev/unittestingpractice/RegistrationUtilTest.kt)
 
