@@ -1,6 +1,6 @@
 package com.atdev.unittestingpractice
 
-import com.atdev.unittestingpractice.presenetation.shared.RegistrationUtil
+import com.atdev.unittestingpractice.other.registrationform.RegistrationUtil
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 

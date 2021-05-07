@@ -1,4 +1,4 @@
-package com.atdev.unittestingpractice.presenetation.shared
+package com.atdev.unittestingpractice.other.registrationform
 
 import android.content.Context
 
