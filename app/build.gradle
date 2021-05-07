@@ -15,6 +15,7 @@ android {
         versionCode 1
         versionName "1.0"
 
+        buildConfigField("String","APi_KRY_Pixabay",APi_KRY_Pixabay)
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
