@@ -8,7 +8,6 @@ import androidx.test.filters.SmallTest
 import com.atdev.unittestingpractice.util.getOrAwaitValue
 import com.google.common.truth.Truth.assertThat
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.runBlockingTest
 import org.junit.After
 import org.junit.Before
@@ -24,14 +23,14 @@ class ShoppingDaoTest {
     @get: Rule
     var instantTaskExecutorRule = InstantTaskExecutorRule()
 
-    private lateinit var database: LocalDatabase
+    private lateinit var database: ShoppingDatabase
     private lateinit var dao: ShoppingDao
 
     @Before
     fun setup() {
         database = Room.inMemoryDatabaseBuilder(
             ApplicationProvider.getApplicationContext(),
-            LocalDatabase::class.java
+            ShoppingDatabase::class.java
         ).allowMainThreadQueries()
             .build()
         dao = database.shoppingDao()
